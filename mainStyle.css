@@ -1,0 +1,227 @@
+body{
+  background-color: #282c34;
+  color: white;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  font-size: 20px;
+}
+a:link{
+  color: white;
+}
+a:visited{
+  color: darkgray;
+}
+.navBarContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  width: 80%;
+  background-color: #282c34;
+}
+.navBarContainer a{
+  width: 25%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid gray;
+  border-radius: 16px;
+  text-decoration: none;
+}
+.navBarContainer a:hover{
+  background-color: purple;
+}
+.navBarContainer a:visited{
+  color: white;
+}
+.navPadding{
+  height:20px;
+}
+.textBlock{
+  margin:auto;
+  width: 100%;
+}
+.textBlock h1{
+  text-align: center;
+}
+.textBlock h2{
+  text-align: center;
+}
+.textBlock h3{
+  text-align: center;
+}
+.textBlock p{
+  text-align:justify;
+}
+.MainHead{
+  background-color: gray;
+}
+.MainHeadChild{
+  order:1;
+  text-align:center;
+  display:flex;
+  align-items:vertical;
+}
+.teamBlock{
+  margin: auto;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.teamMember{
+  width: 30%;
+  text-align: center;
+}
+@media only screen and (min-width:1301px){
+  body{
+  }
+  .MainHead{
+    /*height: 320px;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .MainHeadChild{
+    flex: 1;
+  }
+  .mobileBreak{
+    visibility: hidden;
+  }
+  .mobilepadding{
+    height: 50px;
+  }
+  .researchContainerChild{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+  }
+  .researchItem{
+    flex: 1;
+  }
+  .researchItem h3{
+    height: 50px;
+  }
+  .textxpicContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .textxpicMIDIContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .textBlock_group{
+    max-width: 48%;
+  }
+  .textxpic{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+  }
+  .textxpicChild{
+    display: flex;
+    width:98%;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 901px) and (max-width: 1300px){
+  body{
+  }
+  .MainHead{
+    /*height: 320px;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .MainHeadChild{
+    flex: 1;
+  }
+  .mobileBreak{
+    visibility: hidden;
+  }
+  .mobilepadding{
+    height: 50px;
+  }
+  .researchContainerChild{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+  }
+  .researchItem{
+    flex: 1;
+  }
+  .researchItem h3{
+    height: 50px;
+  }
+  .textxpicContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .textxpicMIDIContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .textBlock_group{
+    max-width: 48%;
+  }
+  .textxpic{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+  }
+  .textxpicChild{
+    display: flex;
+    width:98%;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 900px){
+  .MainHead{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .MainHeadChild{
+  }
+  .mobileBreak{
+    visibility: visible;
+  }
+  .mobilepadding{
+    height: 20px;
+  }
+  .researchContainerChild{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
