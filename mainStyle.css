@@ -152,18 +152,18 @@ ol{
     /*border: 1px solid green;*/
   }
   .textBlock_group{
-    max-width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    align-items: stretch;
     /*border: 1px solid blue;*/
-    flex: 1;
+    flex: 0 1 50%;
   }
   .textxpic{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    flex: 1;
     /*border: 1px solid red;*/
   }
   .textxpicChild{
@@ -240,12 +240,15 @@ ol{
     align-items: stretch;
   }
   .textBlock_group{
-    max-width: 50%;
-    flex: 1 1 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex: 0 1 50%;
   }
   .textxpic{
     display: flex;
     flex-direction: row;
+    flex: 1;
     justify-content: space-around;
     align-items: center;
   }
