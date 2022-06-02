@@ -1,5 +1,7 @@
 body{
   background-color: #282c34;
+  /*background-color: #494d56;*/
+  /*background-color: #363a42;*/
   color: white;
   width: 80%;
   margin: auto;
@@ -76,7 +78,7 @@ ol{
 }
 .MainHeadChild{
   order:1;
-  text-align:center;
+  text-align: center;
   display:flex;
   align-items:vertical;
   justify-content: center;
@@ -166,10 +168,32 @@ ol{
   }
   .textxpicChild{
     display: flex;
+    flex: 1;
     width:100%;
     align-items: center;
     justify-content: center;
     /*border: 1px solid green;*/
+  }
+  .Bruno{
+    background-color:gray;
+  }
+  .Casadevall{
+    background-color: #363a42;
+  }
+  .Culotta{
+    background-color: #363a42;
+  }
+  .Hardwick{
+    background-color:gray;
+  }
+  .Marten{
+    background-color:gray;
+  }
+  .Shoham{
+    background-color: #363a42;
+  }
+  .Zhang{
+    background-color: #363a42;
   }
 }
 @media only screen and (min-width: 901px) and (max-width: 1300px){
@@ -213,7 +237,7 @@ ol{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
+    align-items: stretch;
   }
   .textBlock_group{
     max-width: 50%;
@@ -227,9 +251,36 @@ ol{
   }
   .textxpicChild{
     display: flex;
-    width:100%;
+    width:95%;
     align-items: center;
     justify-content: space-around;
+  }
+  .textxpicChild p{
+    width: 95%;
+  }
+  .textxpicChild ul{
+    width: 80%;
+  }
+  .Bruno{
+    background-color:gray;
+  }
+  .Casadevall{
+    background-color: #363a42;
+  }
+  .Culotta{
+    background-color: #363a42;
+  }
+  .Hardwick{
+    background-color:gray;
+  }
+  .Marten{
+    background-color:gray;
+  }
+  .Shoham{
+    background-color: #363a42;
+  }
+  .Zhang{
+    background-color: #363a42;
   }
 }
 @media only screen and (max-width: 900px){
@@ -243,6 +294,9 @@ ol{
     align-items: center;
   }
   .MainHeadChild{
+  }
+  .textBlock p{
+    text-align: justify;
   }
   .mobileBreak{
     visibility: visible;
@@ -267,9 +321,10 @@ ol{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
   }
   .textBlock_group{
-    max-width: 90%;
+    width: 90%;
     flex: 1 1 0px;
   }
   .textxpic{
@@ -286,6 +341,27 @@ ol{
   }
   .textxpicChild img{
     max-height: 300px;
+  }
+  .Bruno{
+    background-color:gray;
+  }
+  .Casadevall{
+    background-color: #282c34;
+  }
+  .Culotta{
+    background-color:gray;
+  }
+  .Hardwick{
+    background-color: #282c34;
+  }
+  .Marten{
+    background-color: gray;
+  }
+  .Shoham{
+    background-color: #282c34;
+  }
+  .Zhang{
+    background-color:gray;
   }
   .teamBlock{
     margin: auto;
