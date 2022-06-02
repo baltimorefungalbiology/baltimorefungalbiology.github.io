@@ -46,15 +46,103 @@
 
     <div class='textBlock'>
       <h1>Participating Labs</h1>
+
+      <div class='GroupsList'>
+        <ol>
+          <li><a href='#Bruno_Lab'>Bruno Lab</a></li>
+          <li><a href='#Casadevall_Lab'>Casadevall Lab</a></li>
+          <li><a href='#Hardwick_Lab'>Hardwick Lab</a></li>
+          <li><a href='#Marten_Lab'>Marten Lab</a></li>
+          <li><a href='#Shoham_Lab'>Shoham Lab</a></li>
+          <li><a href='#Zhang_lab'>Zhang Lab</a></li>
+        </ol>
+      </div>
+
       <div class='textxpicContainer'>
 
         <div class='textxpicMIDIContainer'>
 
-          <div class='textBlock_group'>
+          <div id='Bruno_Lab' class='textBlock_group' style='background-color:gray;'>
+            <h2>Bruno Lab</h2>
+            <div class="textxpic">
+              <div class='textxpicChild' style="order:1;">
+                <image src="media/Lab_Bruno.png" style="">
+              </div>
+              <div class='textxpicChild' style='order:2;'>
+                <div class='BrunoList'>
+                  <div style="order:1">
+                    <p>
+                      Our lab uses O’mics to understand the host-pathogen interactions between human/mouse cells with:
+                      <br>
+                    </p>
+                  </div>
+                  <div style="order:2">
+                    <ul>
+                      <li>Mucorales fungi (of the genus <em>Rhizopus</em>, <em>Mucor</em>, <em>Cunninghamella</em>, <em>Lichtheimia</em>, etc.)</li>
+                      <li><em>Aspergillus fumigatus</em></li>
+                      <li><em>Scedosporium/Lomentospora</em></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id='Casadevall_Lab' class='textBlock_group'>
+            <h2>Casadevall Lab</h2>
+            <div class="textxpic">
+              <div class='textxpicChild' style="order:1;">
+                <image src="media/Lab_Casadevall_2.jpg" style="">
+              </div>
+              <div class='textxpicChild' style='order:2;'>
+                <p>
+                  Our lab
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class='textxpicMIDIContainer'>
+
+          <div id='Hardwick_Lab' class='textBlock_group'>
+            <h2>Hardwick Lab</h2>
+            <div class="textxpic">
+              <div class='textxpicChild' style="order:1;">
+                <image src="" style="">
+              </div>
+              <div class='textxpicChild' style='order:2;'>
+                <p>
+                  Our lab studies mammalian programmed cell death, and in recent years began studying the molecular dying processes in yeast cells, for example in response to yeast viruses and environmental stresses. We study yeast genes that promote or suppress self-induced cell death following stress in Saccharomyces cerevisiae and Cryptococcus neoformans including clinical isolates.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div id='Marten_Lab' class='textBlock_group' style='background-color:gray;'>
+            <h2>Marten Lab</h2>
+            <div class="textxpic">
+              <div class='textxpicChild' style="order:1;">
+                <image src="media/Lab_Marten.jpg" style="">
+              </div>
+              <div class='textxpicChild' style='order:2;'>
+                <p>
+                  We're interested in understanding how fungi regulate morphogenesis and cell-wall development. We are specifically focused on signal transduction, and use phosphoproteomic analysis to better understand kinase mediated signaling. We are applying our understanding by working to develop novel "mycelial materials" made of fungi.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class='textxpicMIDIContainer'>
+
+          <div id="Shoham_Lab" class='textBlock_group' style='background-color:gray;'>
             <h2>Shoham Lab</h2>
             <div class="textxpic">
               <div class='textxpicChild' style="order:1;">
-                <image src="media/Lab_Shoham.jpg" style="height:200px">
+                <image src="media/Lab_Shoham.jpg" style="max-height:250px;">
               </div>
               <div class='textxpicChild' style='order:2;'>
                 <p>
@@ -64,11 +152,11 @@
             </div>
           </div>
 
-          <div class='textBlock_group'>
+          <div id='Zhang_lab' class='textBlock_group'>
             <h2>Zhang Lab</h2>
             <div class="textxpic">
               <div class='textxpicChild' style="order:1;">
-                <image src="media/Lab_Zhang.png" style="height:200px;">
+                <image src="media/Lab_Zhang.png" style="">
               </div>
               <div class='textxpicChild' style='order:2;'>
                 <p>
@@ -80,7 +168,10 @@
 
         </div>
 
+        </div>
+
       </div>
+
     </div>
 
     <div class="mobilepadding"></div>
@@ -110,7 +201,7 @@
       <div class="teamBlock">
 
         <div class="teamMember">
-          <image src="" style="height:300px;">
+          <image src="" style="">
           <p style='text-align:center;'>
             Quigly Dragotakes, Ph.D.
             <br>
@@ -121,7 +212,7 @@
         </div>
 
         <div class="teamMember">
-          <image src="" style="height:300px;">
+          <image src="" style="">
           <p style='text-align:center;'>
             Daniel Smith, Ph.D.
             <br>
@@ -132,7 +223,7 @@
         </div>
 
         <div class="teamMember">
-          <image src="" style="height:300px;">
+          <image src="" style="">
           <p style='text-align:center;'>
             Gracen Gerbig
             <br>
@@ -145,5 +236,29 @@
       </div>
 
     </div>
+
+    <script>
+      //Script was written by z3r0 on StackOverflow
+      //Get all the hyperlink elements
+      var links = document.getElementsByTagName("a");
+
+      //Browse the previously created array
+      Array.prototype.forEach.call(links, function(elem, index) {
+        //Get the hyperlink target and if it refers to an id go inside condition
+        var elemAttr = elem.getAttribute("href");
+        if(elemAttr && elemAttr.includes("#")) {
+          //Replace the regular action with a scrolling to target on click
+          elem.addEventListener("click", function(ev) {
+            ev.preventDefault();
+            //Scroll to the target element using replace() and regex to find the href's target id
+            document.getElementById(elemAttr.replace(/#/g, "")).scrollIntoView({
+                behavior: "smooth",
+                block: "start",
+                inline: "nearest"
+                });
+          });
+        }
+      });
+    </script>
 
   </body>
