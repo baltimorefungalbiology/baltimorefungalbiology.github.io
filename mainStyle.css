@@ -183,17 +183,20 @@ ol{
   .Culotta{
     background-color: #363a42;
   }
+  .Green{
+    background-color:gray;
+  }
   .Hardwick{
     background-color:gray;
   }
   .Marten{
-    background-color:gray;
+    background-color: #363a42;
   }
   .Shoham{
     background-color: #363a42;
   }
   .Zhang{
-    background-color: #363a42;
+    background-color:gray;
   }
 }
 @media only screen and (min-width: 901px) and (max-width: 1300px){
@@ -273,17 +276,20 @@ ol{
   .Culotta{
     background-color: #363a42;
   }
+  .Green{
+    background-color:gray;
+  }
   .Hardwick{
     background-color:gray;
   }
   .Marten{
-    background-color:gray;
+    background-color: #363a42;
   }
   .Shoham{
     background-color: #363a42;
   }
   .Zhang{
-    background-color: #363a42;
+    background-color:gray;
   }
 }
 @media only screen and (max-width: 900px){
@@ -354,17 +360,20 @@ ol{
   .Culotta{
     background-color:gray;
   }
-  .Hardwick{
+  .Green{
     background-color: #282c34;
+  }
+  .Hardwick{
+    background-color:gray;
   }
   .Marten{
-    background-color: gray;
-  }
-  .Shoham{
     background-color: #282c34;
   }
-  .Zhang{
+  .Shoham{
     background-color:gray;
+  }
+  .Zhang{
+    background-color: #282c34;
   }
   .teamBlock{
     margin: auto;
