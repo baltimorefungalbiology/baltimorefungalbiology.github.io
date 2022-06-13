@@ -189,14 +189,17 @@ ol{
   .Hardwick{
     background-color:gray;
   }
+  .Karlsson{
+    background-color: #363a42;
+  }
   .Marten{
     background-color: #363a42;
   }
   .Shoham{
-    background-color: #363a42;
+    background-color: gray;
   }
   .Zhang{
-    background-color:gray;
+    background-color: #363a42;
   }
 }
 @media only screen and (min-width: 901px) and (max-width: 1300px){
@@ -282,14 +285,17 @@ ol{
   .Hardwick{
     background-color:gray;
   }
+  .Karlsson{
+    background-color: #363a42;
+  }
   .Marten{
     background-color: #363a42;
   }
   .Shoham{
-    background-color: #363a42;
+    background-color: gray;
   }
   .Zhang{
-    background-color:gray;
+    background-color: #363a42;
   }
 }
 @media only screen and (max-width: 900px){
@@ -366,14 +372,17 @@ ol{
   .Hardwick{
     background-color:gray;
   }
-  .Marten{
+  .Karlsson{
     background-color: #282c34;
+  }
+  .Marten{
+    background-color: gray;
   }
   .Shoham{
-    background-color:gray;
+    background-color: #282c34;
   }
   .Zhang{
-    background-color: #282c34;
+    background-color: gray;
   }
   .teamBlock{
     margin: auto;
