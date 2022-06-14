@@ -195,6 +195,9 @@ ol{
   .Marten{
     background-color: #363a42;
   }
+  .Michaelis{
+    background-color: gray;
+  }
   .Shoham{
     background-color: gray;
   }
@@ -291,6 +294,9 @@ ol{
   .Marten{
     background-color: #363a42;
   }
+  .Michaelis{
+    background-color: gray;
+  }
   .Shoham{
     background-color: gray;
   }
@@ -378,11 +384,14 @@ ol{
   .Marten{
     background-color: gray;
   }
-  .Shoham{
+  .Michaelis{
     background-color: #282c34;
   }
-  .Zhang{
+  .Shoham{
     background-color: gray;
+  }
+  .Zhang{
+    background-color: #282c34;
   }
   .teamBlock{
     margin: auto;
