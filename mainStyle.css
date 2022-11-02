@@ -189,20 +189,26 @@ ol{
   .Hardwick{
     background-color:gray;
   }
+  .JabraRizk{
+    background-color: #363a42;
+  }
   .Karlsson{
     background-color: #363a42;
   }
   .Marten{
-    background-color: #363a42;
+    background-color: gray;
   }
   .Michaelis{
     background-color: gray;
   }
+  .Mycologics{
+    background-color: #363a42;
+  }
   .Shoham{
-    background-color: gray;
+    background-color: #363a42;
   }
   .Zhang{
-    background-color: #363a42;
+    background-color: gray;
   }
 }
 @media only screen and (min-width: 901px) and (max-width: 1300px){
@@ -288,20 +294,26 @@ ol{
   .Hardwick{
     background-color:gray;
   }
+  .JabraRizk{
+    background-color: #363a42;
+  }
   .Karlsson{
     background-color: #363a42;
   }
   .Marten{
-    background-color: #363a42;
+    background-color: gray;
   }
   .Michaelis{
     background-color: gray;
   }
+  .Mycologics{
+    background-color: #363a42;
+  }
   .Shoham{
-    background-color: gray;
+    background-color: #363a42;
   }
   .Zhang{
-    background-color: #363a42;
+    background-color: gray;
   }
 }
 @media only screen and (max-width: 900px){
@@ -378,13 +390,19 @@ ol{
   .Hardwick{
     background-color:gray;
   }
-  .Karlsson{
+  .JabraRizk{
     background-color: #282c34;
   }
-  .Marten{
+  .Karlsson{
     background-color: gray;
   }
+  .Marten{
+    background-color: #282c34;
+  }
   .Michaelis{
+    background-color: gray;
+  }
+  .Mycologics{
     background-color: #282c34;
   }
   .Shoham{
